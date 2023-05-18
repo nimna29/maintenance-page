@@ -3,37 +3,8 @@
 
 <head>
     <title>Site Maintenance - MalDitectist</title>
-    <style>
-        html,
-        body {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-        }
-        
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: sans-serif;
-            background-color: #121721;
-            color: #fff;
-        }
-        
-        h1 {
-            font-size: 2.5rem;
-            font-weight: 100;
-        }
-        
-        article {
-            text-align: center;
-        }
-        
-        svg {
-            width: 50px;
-            margin-bottom: 1em;
-        }
-    </style>
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="maintenance.css">
 </head>
 
 <body>
@@ -55,10 +26,31 @@
             </g>
         </svg>
         <h1>Maintenance Mode</h1>
-        <p>Sorry for the inconvenience. We're performing some maintenance at the moment. We'll be back up shortly!</p>
-        <p>-- MalDitectist --</p>
+        <p>Apologies for the inconvenience. Maintenance activities are currently underway.
+        </p>
+        <p>The site will be back up and running shortly!</p>
+        <p>
+            </br>-- MalDitectist --</p>
+        </br>
+        <div class="footer">
+            <div class="follow-for-more">
+                <div class="follow-for-more-text">Connect with the Developer</div>
+                <div class="follow-for-more-icons">
+                    <a href="https://github.com/nimna29" class="github-logo" target="_blank" rel="noopener noreferrer">
+                        <span class="visually-hidden"></span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/nimna-niwarthana-4b7357207/" class="linkedin-logo" target="_blank" rel="noopener noreferrer">
+                        <span class="visually-hidden"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
     </article>
 
 </body>
+
+<script>
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+</script>
 
 </html>
